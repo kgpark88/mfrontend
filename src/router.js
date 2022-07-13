@@ -7,33 +7,33 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => import(`@/views/Home.vue`)
+    component: () => import(`@/views/HomeView.vue`)
   },
   {
     path: '/classifier',
     name: 'classifier',
     component: () => import(
-      `@/views/Classifier.vue`
+      `@/views/ClassifierView.vue`
     )   
   },
   {
     path: '/ocr',
     name: 'ocr',
     component: () => import(
-      `@/views/Ocr.vue`
+      `@/views/OcrView.vue`
     )   
   },
   {
     path: '/dashboard',
     name: 'dashboard',
     component: () => import(
-      `@/views/Dashboard.vue`
+      `@/views/DashboardView.vue`
     )
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import(`@/views/About.vue`)
+    component: () => import(`@/views/AboutView.vue`)
   },
   {
     path: '*',
@@ -52,14 +52,14 @@ const routes = [
     path: '/403',
     name: 'AccessDenied',
     component: () => import(
-      `@/views/Deny.vue`
+      `@/views/DenyView.vue`
     )
   },
   {
     path: '/500',
     name: 'ServerError',
     component: () => import(
-      `@/views/Error.vue`
+      `@/views/ErrorView.vue`
     )
   },
 ]

@@ -18,8 +18,8 @@
 export default {
   name: 'App',
   components: {
-    Toolbar: () => import('@/components/Toolbar'),
-    Footer: () => import('@/components/Footer'),
+    Toolbar: () => import('@/components/MainToolbar'),
+    Footer: () => import('@/components/MainFooter'),
   },
   data () {
     return {
