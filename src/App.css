@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'lotte_font';  
+    src: url('/fonts/MyLotteBold.ttf') format('woff');
+     font-weight: normal; 
+     font-style: normal; 
+}
+.App {
+  text-align: center;
+  font-size: 50px;  
+  font-family: lotte_font;  
+}
